@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material_handbook';
+  name = 'Angular';
+
+  onButtonClicked(event: any) {
+   console.log(event); // handle button clicked here.
+  }
+
 }
